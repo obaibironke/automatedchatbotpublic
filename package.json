@@ -1,5 +1,5 @@
 {
-  "name": "permasize-proxy",
+  "name": "proxy",
   "version": "1.0.0",
   "type": "module",
   "main": "server.js",
