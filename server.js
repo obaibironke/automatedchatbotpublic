@@ -5,12 +5,12 @@ const app = express();
 app.use(express.json());
 
 const CLIENTS = {
-  "bella-dent": { token: "R6nC9vQ4xP2yH7tF3mK1aL8bJ0sZ5gD9" },
-  "demo-cafe": { token: "ZK3fQx9uP1wC7aL0hY2sR8dM5vT4nB6" }
+  "bella-dent": { token: "Secret" },
+  "demo-cafe": { token: "Secret" }
 };
 
 const N8N_BASE =
-  "https://permasize.app.n8n.cloud/webhook/9259d8e0-8ba1-4e96-a2f5-1b95bd0c2c28/chatbot";
+  "Secret";
 
 app.post("/api/chat/:clientId", async (req, res) => {
   const { clientId } = req.params;
